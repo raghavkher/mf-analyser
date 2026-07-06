@@ -44,6 +44,7 @@ nav{display:flex;align-items:center;justify-content:center;padding:1rem 2rem;bor
 .upload-instruction{display:grid;grid-template-columns:22px 58px minmax(0,1fr);gap:.45rem;align-items:center}
 .upload-logo{width:20px;height:20px;border-radius:50%;object-fit:cover}
 .upload-brand{font-weight:700}
+.upload-path{font-style:italic;color:var(--muted)}
 .coin-brand{color:#FFD84D}
 .groww-brand{color:#18DDB3}
 input[type=file]{display:none}
@@ -281,8 +282,8 @@ input[type=file]{display:none}
       <div class="upload-icon">↑</div>
       <div class="upload-title">Drop mutual fund tradebooks from multiple years here</div>
       <div class="upload-sub upload-instructions">
-        <div class="upload-instruction"><img class="upload-logo" src="../assets/coin-logo.png" alt="Coin logo"><span class="upload-brand coin-brand">Coin</span><span>Console → Reports → Tradebook → Mutual Funds</span></div>
-        <div class="upload-instruction"><img class="upload-logo" src="../assets/groww-logo.png" alt="Groww logo"><span class="upload-brand groww-brand">Groww</span><span>Profile → Reports → Transactions → Mutual Funds → Order History</span></div>
+        <div class="upload-instruction"><img class="upload-logo" src="../assets/coin-logo.png" alt="Coin logo"><span class="upload-brand coin-brand">Coin</span><span class="upload-path">Console → Reports → Tradebook → Mutual Funds</span></div>
+        <div class="upload-instruction"><img class="upload-logo" src="../assets/groww-logo.png" alt="Groww logo"><span class="upload-brand groww-brand">Groww</span><span class="upload-path">Profile → Reports → Transactions → Mutual Funds → Order History</span></div>
       </div>
       <label class="upload-btn" for="fileInput">Choose files</label>
       <input type="file" id="fileInput" accept=".xlsx,.xls,.csv" multiple>
